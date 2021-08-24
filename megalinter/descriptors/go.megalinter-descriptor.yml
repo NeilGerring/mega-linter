@@ -21,6 +21,7 @@ linters:
     cli_lint_extra_args:
       - "run"
     cli_version_arg_name: "version"
+    cli_lint_mode: list_of_files
     version_extract_regex: "((\\d+(\\.\\d+)+)|(master))"
     examples:
       - "golangci-lint run myfile.go"
